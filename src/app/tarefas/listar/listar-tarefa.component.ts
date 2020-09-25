@@ -14,12 +14,12 @@ export class ListarTarefaComponent implements OnInit {
 
   ngOnInit(): void {
     this.tarefas = this.listarTodos();
-/*     this.tarefas = [
+     this.tarefas = [
       new Tarefa(1, "Tarefa 1", false),
-      new Tarefa(2, "Tarefa 2", true),
+      new Tarefa(2, "Tarefa 2", true)/* ,
       new Tarefa(3, "Tarefa 3", false),
-      new Tarefa(4, "Tarefa 4", false),
-    ]; */
+      new Tarefa(4, "Tarefa 4", false), */
+    ]; 
   }
 
   listarTodos(): Tarefa[] {
