@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Tarefa } from './tarefa.model';
+import { Tarefa } from './';
 
 @Injectable({
   providedIn: 'root'
@@ -17,7 +17,7 @@ export class TarefaService {
     const tarefas = this.listarTodos();
     tarefa.id = new Date().getTime();
     tarefas.push(tarefa);
-    localStorage['tarefas'] = JSON.stringify(tarefa);
+    localStorage['tarefas'] = JSON.stringify(tarefas);
   }
 
   buscaPorId(id: number): Tarefa {
