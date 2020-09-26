@@ -1,9 +1,9 @@
 import { Directive } from '@angular/core';
 
 @Directive({
-  selector: '[appTarefaCocluida]'
+  selector: '[appTarefaConcluida]'
 })
-export class TarefaCocluidaDirective {
+export class TarefaConcluidaDirective {
 
   constructor() { }
 
