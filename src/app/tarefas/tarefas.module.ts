@@ -7,13 +7,15 @@ import { TarefaService } from "./shared";
 import { ListarTarefaComponent } from './listar';
 import { CadastrarTarefaComponent } from './cadastrar/';
 import { EditarTarefasComponent } from './editar';
+import { TarefaCocluidaDirective } from './shared/tarefa-cocluida.directive';
 
 
 @NgModule({
   declarations: [
     ListarTarefaComponent,
     CadastrarTarefaComponent,
-    EditarTarefasComponent
+    EditarTarefasComponent,
+    TarefaCocluidaDirective
   ],
   imports: [
     CommonModule,
